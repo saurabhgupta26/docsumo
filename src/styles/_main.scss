@@ -27,8 +27,7 @@ body {
   flex-wrap: wrap;
 }
 .card-center {
-  margin: 0 auto;
-  padding: 32px 24px 24px;
+  padding: 40px 5px 32px;
 }
 .card {
   position: relative;
@@ -50,7 +49,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.05em;
-  margin-top: 16px;
+  margin-top: 4rem;
   background: #405089;
   color: #fff;
   height: 40px;
@@ -94,6 +93,9 @@ body {
   border: 1px solid #405089;
   border-radius: 16px;
 }
+.btn-primary:hover {
+  background:#526199;
+}
 .p-signup {
   flex: 1 1;
   font-size: 15px;
@@ -102,13 +104,8 @@ body {
 }
 
 .input-field {
-  width: 100%;
-  height: 30px;
-  // padding: 0;
-  // margin: 0;
   font-size: 14px;
   outline: none;
-  // background: transparent;
   border: none;
   border-bottom: 1.5px solid #8adbdb;
 }
@@ -119,9 +116,5 @@ body {
   font-size: 14px;
   line-height: 30px;
   opacity: 0.5;
-  // transition: all 0.2s;
 }
-.field {
-  position: relative;
-  padding: 20px 0;
-}
+
