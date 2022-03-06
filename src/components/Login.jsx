@@ -51,7 +51,7 @@ function Login(props) {
                 onChange={(e) => setEmail(e.target.value)}
                 name="email"
               />
-              <label for="floatingInput" className="form-label">
+              <label htmlFor="floatingInput" className="form-label">
                 Work Email
               </label>
             </div>
@@ -64,7 +64,7 @@ function Login(props) {
                 placeholder="Password"
                 onChange={(e) => setPassword(e.target.value)}
               />
-              <label for="floatingPassword" className="form-label">
+              <label htmlFor="floatingPassword" className="form-label">
                 Password
               </label>
             </div>
